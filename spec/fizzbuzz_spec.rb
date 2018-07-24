@@ -3,7 +3,7 @@ puts "Enter a Value"
 
 if value % 15 == 0 
   puts "fizzbuzz"
-
+elsif
  if value % 3 == 0
   puts "fizz"
   
