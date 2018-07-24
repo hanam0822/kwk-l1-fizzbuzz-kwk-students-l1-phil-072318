@@ -2,14 +2,11 @@ def fizzbuzz (value)
   if value % 5 == 0 && value  % 3 == 0
   return "FizzBuzz"
  end 
-  if value % 15 == 0 
-  return "FizzBuzz"
-
-elsif value % 3 == 0
-  return "fizz"
+  if value % 3 == 0 # if the number value is divisible by 3
+  return "Fizz"
   
-elsif value % 5 == 0
-  return "buzz"
+elsif value % 15 == 0
+  return "FizzBuzz"
   
 else 
   return nil
