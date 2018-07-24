@@ -1,7 +1,6 @@
-puts "Enter a Value"
- value = gets.chomp.to_i
 
-if value % 15 == 0 
+def fizzbuzz (value)
+  if value % 15 == 0 
   puts "fizzbuzz"
 
 elsif value % 3 == 0
@@ -13,4 +12,5 @@ elsif value % 5 == 0
 else 
   puts nil
   
-end 
+  end 
+end
